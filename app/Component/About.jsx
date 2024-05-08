@@ -1,11 +1,11 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/uzrtZxq8MYb
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
- export default function About() {
-    return (
-      <center>
+'use client'
+import { useState } from "react";
+import '../style.css'
+
+export default function About() {
+ 
+  return (
+    <center>
 
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid grid-cols-1 items-center gap-8 px-4 md:grid-cols-2 md:gap-12 md:px-6">
@@ -23,17 +23,18 @@
             </p>
           </div>
           <div className="flex justify-center">
-            <img
-              alt="Varsani ranjani"
-              className="aspect-square rounded-full object-cover"
-              height={300}
-              src="/Images/me1.jpeg"
-              width={300}
-            />
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="/Images/me1.jpeg" alt="Paris" className="aspect-square rounded-full object-cover" height={300} width={300}/>
+                </div>
+               
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      </center>
+    </center>
 
-    )
-  }
+  )
+}

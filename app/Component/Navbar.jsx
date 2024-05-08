@@ -7,12 +7,11 @@ import { DrawerTrigger, DrawerContent, Drawer } from "@/components/ui/drawer"
 export default function Navbar() {
   return (
     <>
-<center>
 
       <header className="flex h-16 items-center justify-between px-4 md:px-6 border-b border-gray-200 dark:border-gray-800">
         <Link className="flex items-center" href="#">
-        <img src="/Images/logo.png" style={{height:'100px'}}/>
-          <span className="sr-only">Acme Inc</span>
+          <img src="/Images/logo.png" style={{ height: '100px' }} />
+          <span className="sr-only">Ranjani Varsani</span>
         </Link>
         <Sheet>
           <SheetTrigger asChild>
@@ -22,41 +21,51 @@ export default function Navbar() {
             </Button>
           </SheetTrigger>
           <SheetContent className="lg:hidden" side="left">
+
             <div className="grid gap-6 p-6">
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="#">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="/">
                 <HomeIcon className="h-6 w-6" />
                 Home
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="#">
-                <ServerIcon className="h-6 w-6" />
-                Services
-              </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="#">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="/about">
                 <InfoIcon className="h-6 w-6" />
                 About
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="#">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="/projects">
+                <ServerIcon className="h-6 w-6" />
+                Projects
+              </Link>
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="/services">
+                <ServerIcon className="h-6 w-6" />
+                Services
+              </Link>
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="/contacts">
                 <ContactIcon className="h-6 w-6" />
                 Contact
               </Link>
             </div>
           </SheetContent>
         </Sheet>
+
         <nav className="hidden lg:flex items-center gap-10 text-lg font-medium">
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/">
             Home
           </Link>
-          <Link className="hover:underline" href="#">
-            Services
-          </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/about">
             About
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/projects">
+            Projects
+          </Link>
+          <Link className="hover:underline" href="/services">
+            Services
+          </Link>
+          <Link className="hover:underline" href="/contact">
             Contact
           </Link>
         </nav>
-      </header></center>
+
+      </header>
 
     </>
   )
