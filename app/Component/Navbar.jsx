@@ -8,23 +8,23 @@ export default function Navbar() {
   return (
     <>
 
-      <header className="flex h-16 items-center justify-between px-4 md:px-6 border-b border-gray-200 dark:border-gray-800">
+      <header className="flex h-16 items-center justify-between  md:px-52 border-b border-gray-200 dark:border-gray-800 ">
         <Link className="flex items-center" href="#">
           <img src="/Images/logo.png" style={{ height: '100px' }} />
           <span className="sr-only">Ranjani Varsani</span>
         </Link>
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="lg:hidden" size="icon" variant="outline">
-              <MenuIcon className="h-6 w-6" />
+            <Button className="lg:hidden text-white" size="icon" variant="outline">
+              <MenuIcon className="h-6 w-6 " />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
           <SheetContent className="lg:hidden" side="left">
 
-            <div className="grid gap-6 p-6">
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="/">
-                <HomeIcon className="h-6 w-6" />
+            <div className="grid gap-6 p-6 text-white">
+              <Link className="flex items-center gap-2 text-lg font-semibold " href="/">
+                <HomeIcon className="h-6 w-6 " />
                 Home
               </Link>
               <Link className="flex items-center gap-2 text-lg font-semibold" href="/about">
@@ -159,25 +159,6 @@ function MenuIcon(props) {
   )
 }
 
-
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  )
-}
 
 
 function ServerIcon(props) {

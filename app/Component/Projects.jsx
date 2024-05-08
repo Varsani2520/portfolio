@@ -23,15 +23,15 @@
                <img
                  alt="Project 1"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
                    objectFit: "cover",
+                   height:'100%'
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 1</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 1.</p>
                </div>
@@ -42,15 +42,15 @@
                <img
                  alt="Project 2"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
-                   objectFit: "cover",
+                   objectFit: "cover",height:'100%'
+
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 2</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 2.</p>
                </div>
@@ -61,15 +61,15 @@
                <img
                  alt="Project 3"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
-                   objectFit: "cover",
+                   objectFit: "cover",                   height:'100%'
+
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 3</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 3.</p>
                </div>
@@ -80,15 +80,15 @@
                <img
                  alt="Project 4"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
-                   objectFit: "cover",
+                   objectFit: "cover",                   height:'100%'
+
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 4</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 4.</p>
                </div>
@@ -99,15 +99,15 @@
                <img
                  alt="Project 5"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
-                   objectFit: "cover",
+                   objectFit: "cover",                   height:'100%'
+
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 5</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 5.</p>
                </div>
@@ -118,15 +118,15 @@
                <img
                  alt="Project 6"
                  className="h-60 w-full object-cover object-center transition-all "
-                 height="200"
                  src="/Images/eshop.png"
                  style={{
                    aspectRatio: "300/200",
-                   objectFit: "cover",
+                   objectFit: "cover",                   height:'100%'
+
                  }}
                  width="300"
                />
-               <div className="bg-gray-800 p-4">
+               <div className="bg-gray-800 hover:bg-yellow-300   p-4">
                  <h3 className="text-lg font-semibold text-gray-50">Project 6</h3>
                  <p className="text-sm text-gray-400">A brief summary of Project 6.</p>
                </div>

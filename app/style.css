@@ -37,3 +37,65 @@
     color: white;
     transform: rotateY(180deg);
   } 
+
+  /* dotted and vertical line */
+ 
+  .line {
+    border-left: 2px solid green;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    margin-left: -2px;
+    top: -1%;
+    /* Adjust line width as needed */
+  }
+  
+  .dot {
+    width: 10px; /* Adjust dot size as needed */
+    height: 10px; /* Adjust dot size as needed */
+    border-radius: 50%;
+    background-color: green; /* Adjust dot color as needed */
+  }
+
+.experience-1 {
+  margin-left: 20px;
+}
+.experience-1 h2{
+  white-space: nowrap;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.experience-1 p{
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience-1 h3{
+  white-space: nowrap;
+  margin-top: 10px;
+
+ 
+}
+  
+/* left side
+ */
+ .experience-2 {
+  margin-left: -950px;
+  max-width: 445px;
+}
+.experience-2 h2{
+  white-space: nowrap;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.experience-2 p{
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience-2 h3{
+  white-space: nowrap;
+  margin-top: 10px;
+}
