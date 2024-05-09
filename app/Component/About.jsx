@@ -8,13 +8,13 @@ export default function About() {
           <div className="space-y-4 text-center md:text-left">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
             <p className="text-gray-500 dark:text-gray-400">
-              Hi, I'm Ranjani Varsani, a passionate web developer with a keen eye for design. I've been creating beautiful and
-              functional websites for the past 5 years, always striving to push the boundaries of what's possible on the
+              Hi, I&apos;m Ranjani Varsani, a passionate web developer with a keen eye for design. I&apos;ve been creating beautiful and
+              functional websites for the past 5 years, always striving to push the boundaries of what&apos;s possible on the
               web.
             </p>
             <p className="text-gray-500 dark:text-gray-400">
               In my free time, you can find me exploring the latest web technologies, experimenting with new design
-              trends, or hiking in the great outdoors. I'm a lifelong learner, constantly seeking to expand my skills and
+              trends, or hiking in the great outdoors. I&apos;m a lifelong learner, constantly seeking to expand my skills and
               knowledge to deliver the best possible experience for my clients.
             </p>
           </div>
