@@ -1,12 +1,8 @@
-'use client'
-import { useState } from "react";
 import '../style.css'
 
 export default function About() {
- 
   return (
     <center>
-
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid grid-cols-1 items-center gap-8 px-4 md:grid-cols-2 md:gap-12 md:px-6">
           <div className="space-y-4 text-center md:text-left">
@@ -26,9 +22,8 @@ export default function About() {
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="/Images/me1.jpeg" alt="Paris" className="aspect-square rounded-full object-cover" height={300} width={300}/>
+                  <img src="/Images/me1.jpeg" alt="Paris" className="rounded-full object-cover" height={300} width={300} />
                 </div>
-               
               </div>
             </div>
           </div>
