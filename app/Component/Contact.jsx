@@ -38,7 +38,7 @@ export default function Contact() {
               </form>
             </div>
             <div className="mt-10 lg:mt-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1715152692533!6m8!1m7!1sq9xR8EV2dyVnUA1caVdsyg!2m2!1d23.19237509753773!2d69.5601149531841!3f292.4096226297424!4f-12.551367978608283!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1715152692533!6m8!1m7!1sq9xR8EV2dyVnUA1caVdsyg!2m2!1d23.19237509753773!2d69.5601149531841!3f292.4096226297424!4f-12.551367978608283!5f0.7820865974627469" width="600" height="450" allowfullscreen="" loading="lazy" 
              style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
