@@ -1,16 +1,17 @@
 import { Button } from '@/components/ui/button';
 import React from 'react';
 import '../style.css'
-const Portfolio = () => {
+const Experiance = () => {
     return (
         <center>
-            <section className="w-full py-12 md:py-24 lg:py-32 dark">
-                <div className="container space-y-8 px-4 md:px-6">
+            <section className="w-full text-center  dark pattern geeks">
+                <div className="container space-y-8 px-4 md:px-6 pb-10 justify-center text-center">
                     <div className="text-center">
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Portfolio</h2>
-                        <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl pb-2">My Experiance</h2>
+                        <p className="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                             Check out some of the projects I&apos;ve worked on.
                         </p>
+                    </div>
                     </div>
                     <div>
                         <div className="dot">
@@ -41,11 +42,9 @@ const Portfolio = () => {
                         </div>
                         <div className="dot"></div>
                     </div>
-
-                </div>
             </section>
         </center>
     );
 }
 
-export default Portfolio;
+export default Experiance;
