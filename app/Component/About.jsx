@@ -22,7 +22,7 @@ export default function About() {
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
-                  <img src="/Images/me1.jpeg" alt="Paris" className="rounded-full object-cover" height={300} width={300} />
+                  <img src="/Images/me1.jpeg" alt="Paris" className="aspect-square rounded-full object-cover" height={300} width={300} />
                 </div>
               </div>
             </div>
