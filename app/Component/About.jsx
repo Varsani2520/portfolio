@@ -17,6 +17,13 @@ export default function About() {
               trends, or hiking in the great outdoors. I&apos;m a lifelong learner, constantly seeking to expand my skills and
               knowledge to deliver the best possible experience for my clients.
             </p>
+            <p className="text-white dark:text-white"> Welcome to my website! I'm Arwaz Khan, a Computer Science and Engineering undergraduate student with a passion for developing innovative software solutions. I specialize in Android App Development and Full Stack Web Development, and have experience working with technologies such as Kotlin, nodejs, Python, HTML, CSS, JavaScript, and Firebase.
+
+              I have developed various projects such as HealthIQ, Resume2Hire, EdRoom, HostelMate, and a Space Invaders game using my skills and knowledge. As a Lead/Web Developer at Alumni Of GEC Bilaspur (ABGEC), I have been involved in creating a website (www.abgec.in) for the alumni organization of our college. I am also a Gate qualified candidate.
+
+              Apart from my technical expertise, I possess soft skills such as problem-solving, teamwork, leadership, and analytical thinking. I have also been actively involved in technical clubs and organizations, such as the Developer's Club and GDSC GECB, where I have taken up leadership roles and responsibilities.
+
+              Thank you for visiting my website. Feel free to explore my portfolio, projects, and blog section to know more about me and my work. </p>
           </div>
           <div className="flex justify-center">
             <div class="flip-box">
