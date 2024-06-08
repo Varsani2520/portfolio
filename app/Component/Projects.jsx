@@ -64,25 +64,7 @@ export default function Projects() {
               </div>
           ))}
         </div>
-        {/* for mobile device swiper type  */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 container sm:block ">
-          {projects.map((project) => (
-            <div key={project.id} >
-            
-                <div className="container">
-                  <div className="card">
-                    <div className="image">
-                      <img href="#" src={project.imageSrc} />
-                    </div>
-                    <div className="content">
-                      <h3>This is content</h3>
-                      <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface without         relying on meaningful content.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          ))}
-        </div>
+       
       </section>
     </center>
   );

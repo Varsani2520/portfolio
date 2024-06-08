@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import './Skills.css'; // Ensure you have the appropriate CSS file
 
 const Skills = () => {
     const skills = [
@@ -21,7 +20,7 @@ const Skills = () => {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1024) {
-                setSlidesToShow(3);
+                setSlidesToShow(5);
             } else {
                 setSlidesToShow(1);
             }
@@ -58,7 +57,7 @@ const Skills = () => {
                                     <img
                                         src={skill.image}
                                         alt={skill.name}
-                                        className="w-full h-48 object-cover border border-green-500"
+                                        className="w-full h-[100%] object-cover border border-green-500"
                                     />
                                 </div>
                             ))}

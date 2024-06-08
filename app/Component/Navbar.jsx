@@ -23,23 +23,23 @@ export default function Navbar() {
           <SheetContent className="lg:hidden" side="left">
 
             <div className="grid gap-6 p-6 text-white">
-              <Link className="flex items-center gap-2 text-lg font-semibold " href="/">
+              <Link className="flex items-center gap-2 text-lg font-semibold " href="#">
                 <HomeIcon className="h-6 w-6 " />
                 Home
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="/about">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="#about">
                 <InfoIcon className="h-6 w-6" />
                 About
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="/projects">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="#projects">
                 <ServerIcon className="h-6 w-6" />
                 Projects
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="/services">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="#services">
                 <ServerIcon className="h-6 w-6" />
                 Services
               </Link>
-              <Link className="flex items-center gap-2 text-lg font-semibold" href="/contacts">
+              <Link className="flex items-center gap-2 text-lg font-semibold" href="#contacts">
                 <ContactIcon className="h-6 w-6" />
                 Contact
               </Link>
@@ -48,22 +48,23 @@ export default function Navbar() {
         </Sheet>
 
         <nav className="hidden lg:flex items-center gap-10 text-lg font-medium">
-          <Link className="hover:underline" href="/">
+          <Link href="#home" className="hover-underline">
             Home
           </Link>
-          <Link className="hover:underline" href="/about">
+          <Link href="#about" className="hover-underline">
             About
           </Link>
-          <Link className="hover:underline" href="/projects">
+          <Link href="#projects" className="hover-underline">
             Projects
           </Link>
-          <Link className="hover:underline" href="/services">
+          <Link href="#services" className="hover-underline">
             Services
           </Link>
-          <Link className="hover:underline" href="/contact">
+          <Link href="#contact" className="hover-underline">
             Contact
           </Link>
         </nav>
+
 
       </header>
 
