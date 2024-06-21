@@ -4,15 +4,15 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import "../style.css";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper/core";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/scrollbar';
 
-SwiperCore.use([Pagination, Navigation, Autoplay]);
+// import required modules
+import { Scrollbar } from 'swiper/modules';
+
 
 const projects = [
   {
@@ -80,15 +80,10 @@ const Projects = () => {
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
+              scrollbar={{
+                hide: true,
               }}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
+              modules={[Scrollbar]}
               className="mySwiper"
             >
               {projects.map((project) => (
