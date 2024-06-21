@@ -79,7 +79,7 @@ export default function Projects() {
           >
             {projects.map((project) => (
               <SwiperSlide key={project.id}>
-                <div className="card my-5">
+                <div className="card my-10">
                   <div className="image">
                     <img src={project.imageSrc} alt={project.title} />
                   </div>
