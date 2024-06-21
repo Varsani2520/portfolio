@@ -1,5 +1,17 @@
+"use client";
+
 import Link from "next/link";
-import '../style.css'
+import "../style.css";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
+
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 const projects = [
   {
     id: 1,
@@ -40,31 +52,47 @@ export default function Projects() {
       <section className="w-full py-12 md:py-24 lg:py-32 dark">
         <div className="container space-y-8 px-4 md:px-6">
           <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              My Projects
+            </h2>
             <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Check out some of the projects I&apos;ve worked on.
             </p>
           </div>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 container sm:flex-none ">
-          {projects.map((project) => (
-            <div key={project.id} >
-            
-                <div className="container">
-                  <div className="card">
-                    <div className="image">
-                      <img href="#" src={project.imageSrc} />
-                    </div>
-                    <div className="content">
-                      <h3>This is content</h3>
-                      <p>DIn publishing and graphic design,           Lorem ipsum is a placeholder text               commonly used to demonstrate the visual         form of a document or a typeface without         relying on meaningful content.</p>
-                    </div>
+
+        <div className="container">
+          <Swiper
+           spaceBetween={30}
+           slidesPerView={4}
+           loop={true}
+           autoplay={{
+             delay: 2500,
+             disableOnInteraction: false,
+           }}
+           pagination={{
+             clickable: true,
+           }}
+           navigation={true}
+           modules={[Autoplay, Pagination, Navigation]}
+           className="mySwiper"
+          >
+            {projects.map((project) => (
+              <SwiperSlide key={project.id}>
+                <div className="card">
+                  <div className="image">
+                    <img src={project.imageSrc} alt={project.title} />
+                  </div>
+                  <div className="content">
+                    <h3>{project.title}</h3>
+                    <p>{project.summary}</p>
+                    <Link href="#">View Project</Link>
                   </div>
                 </div>
-              </div>
-          ))}
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-       
       </section>
     </center>
   );
