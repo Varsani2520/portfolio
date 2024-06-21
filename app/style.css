@@ -47,6 +47,7 @@
     left: 50%;
     margin-left: -2px;
     top: -1%;
+    width: 10px;
     /* Adjust line width as needed */
   }
   
@@ -61,7 +62,21 @@
 
 .experience-1 {
   margin-left: 20px;
+  width: min-content;
 }
+
+@media screen and (max-width: 600px){
+  .experience-1 {
+    margin-left: 0px;
+    width: 200px;
+    overflow: hidden;
+  }
+
+  .experience-2{
+    left:-222px;
+  }
+}
+
 .experience-1 h2{
   white-space: nowrap;
   margin-top: 15px;
@@ -86,7 +101,7 @@
  .experience-2 {
   position: relative;
   max-width: 445px;
-  left:-350px;
+  left: -222px;
 }
 .experience-2 h2{
   white-space: nowrap;
@@ -198,6 +213,8 @@
   padding: 100px;
   text-align: center;
 }
+
+
 
 section {
   width: 100%;
