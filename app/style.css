@@ -71,6 +71,10 @@
     width: 200px;
     overflow: hidden;
   }
+
+  .experience-2{
+    left:-222px;
+  }
 }
 
 .experience-1 h2{
@@ -97,7 +101,7 @@
  .experience-2 {
   position: relative;
   max-width: 445px;
-  left:-350px;
+  left: -222px;
 }
 .experience-2 h2{
   white-space: nowrap;
